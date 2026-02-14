@@ -2,7 +2,6 @@
     "name": "urbanrise-interiors",
     "version": "1.0.0",
     "scripts": {
-        "build": "echo 'No build step required'"
-    },
-    "private": true
+        "build": "mkdir -p public && cp *.html *.css *.js *.png public/ && cp -r social website public/"
+    }
 }
